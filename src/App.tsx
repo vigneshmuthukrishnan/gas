@@ -231,7 +231,7 @@ function App() {
             <div className="relative">
               <div className="bg-gradient-to-br from-slate-800 to-blue-800 rounded-2xl p-8 lg:p-12">
                 <img 
-                  src="https://images.pexels.com/photos/4226881/pexels-photo-4226881.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+                  src="./assets/image.jpg" 
                   alt="Gas cylinders and industrial equipment" 
                   className="w-full h-64 lg:h-80 object-cover rounded-xl shadow-lg"
                 />
