@@ -40,34 +40,14 @@ function App() {
 
   const products = [
     {
-      name: 'O2 (Oxygen)',
-      description: 'O₂ (Oxygen) Gas is a high-purity, colorless, and odorless gas essential for medical and industrial use. It supports life in hospitals and enhances combustion in welding and metal processing. Available in various cylinder sizes with safe, reliable delivery options.',
-      image: mo2
+      name: 'Industrial Gases',
+      description: 'Comprehensive range of industrial gases including O2, AR, N2, ACM, D.A, NH3, and more for various manufacturing processes. High-purity gases delivered with reliable quality assurance and safety standards for optimal industrial performance.',
+      image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
     {
-      name: 'Mo2',
-      description: 'Mo2 Gas is a high-performance industrial gas blend designed for precision applications.It is used in specialized welding, cutting, or controlled atmosphere processes. Delivered in secure, high-quality cylinders with consistent purity and safety assurance..',
-      image: o2
-    },
-    {
-      name: 'N2O (Nitrous Oxide)',
-      description: 'N₂O (Nitrous Oxide) is a colorless, sweet-smelling gas used widely in medical and industrial applications.It acts as a mild anesthetic and analgesic in dentistry and surgery. Also used in food processing (whipped cream propellant) and as an oxidizer in performance engines. Supplied in secure, high-pressure cylinders with reliable purity and safety standards.',
-      image: N2o
-    },
-    {
-      name: 'CO2 (Carbon Dioxide)',
-      description: 'CO₂ (Carbon Dioxide) is a colorless, odorless gas used across medical, food, and industrial sectors. It is essential for carbonating beverages, preserving food, and supporting plant growth in greenhouses. Also used in welding, fire suppression systems, and dry ice production. Delivered in cylinders or bulk supply with high purity and safety compliance.',
-      image: CO2
-    },
-    {
-      name: 'N2 (Nitrogen)',
-      description: 'N₂ (Nitrogen) Gas is a colorless, odorless, and non-reactive gas widely used in industrial and scientific applications. It’s essential for creating inert atmospheres in welding, chemical processing, and electronics manufacturing. Also used in food packaging to preserve freshness and in tire inflation for better stability. Supplied in high-pressure cylinders with consistent purity and strict safety standards.',
-      image: N2
-    },
-    {
-      name: 'Ar (Argon)',
-      description: 'Ar (Argon) Gas is a colorless, odorless, and inert noble gas used in various industrial processes. It provides a protective atmosphere for welding, metal fabrication, and semiconductor manufacturing. Also used in filling incandescent and fluorescent light bulbs to prevent filament oxidation. Delivered in high-purity cylinders with reliable quality and safety assurance.',
-      image: AR
+      name: 'Medical Gases',
+      description: 'Specialized medical gases including Mo2, N2O, CO2, Tri Gas, and other pharmaceutical-grade gases for healthcare applications. Certified for medical use with strict quality control and regulatory compliance for patient safety.',
+      image: 'https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
   ];
 
