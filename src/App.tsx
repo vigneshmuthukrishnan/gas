@@ -41,32 +41,32 @@ function App() {
   const products = [
     {
       name: 'O2 (Oxygen)',
-      description: 'High-purity oxygen gas essential for medical, industrial, and welding applications. Our medical-grade oxygen meets stringent pharmaceutical standards for hospitals, clinics, and emergency services. Industrial oxygen is perfect for steel production, chemical processing, and metal cutting operations. We provide oxygen in various cylinder sizes and purity levels to meet your specific requirements. Our reliable supply chain ensures consistent availability for critical applications. All oxygen products are tested and certified to meet international quality standards.',
+      description: 'O₂ (Oxygen) Gas is a high-purity, colorless, and odorless gas essential for medical and industrial use. It supports life in hospitals and enhances combustion in welding and metal processing. Available in various cylinder sizes with safe, reliable delivery options.',
       image: mo2
     },
     {
       name: 'Mo2',
-      description: 'Specialized molybdenum dioxide designed for advanced industrial and research applications. This high-grade compound is essential for catalyst production, metallurgical processes, and specialized chemical reactions. Our Mo2 meets strict purity requirements for semiconductor manufacturing and advanced materials research. Perfect for laboratories, research institutions, and high-tech manufacturing facilities. We ensure consistent quality through rigorous testing and quality control processes. Available in various packaging options to suit different application needs.',
+      description: 'Mo2 Gas is a high-performance industrial gas blend designed for precision applications.It is used in specialized welding, cutting, or controlled atmosphere processes. Delivered in secure, high-quality cylinders with consistent purity and safety assurance..',
       image: o2
     },
     {
       name: 'N2O (Nitrous Oxide)',
-      description: 'Medical-grade nitrous oxide for anesthesia and food industry applications. Our pharmaceutical-grade N2O is widely used in hospitals and dental clinics for safe and effective anesthesia procedures. Food-grade nitrous oxide serves as an excellent propellant for whipped cream dispensers and aerosol applications. We maintain strict quality control to ensure product purity and safety for all applications. Our nitrous oxide meets FDA and medical industry standards for patient safety. Available in various cylinder sizes with secure delivery and handling protocols.',
+      description: 'N₂O (Nitrous Oxide) is a colorless, sweet-smelling gas used widely in medical and industrial applications.It acts as a mild anesthetic and analgesic in dentistry and surgery. Also used in food processing (whipped cream propellant) and as an oxidizer in performance engines. Supplied in secure, high-pressure cylinders with reliable purity and safety standards.',
       image: N2o
     },
     {
       name: 'CO2 (Carbon Dioxide)',
-      description: 'Food-grade and industrial carbon dioxide for beverage, welding, and fire suppression systems. Our CO2 is perfect for carbonating beverages, preserving food freshness, and creating inert atmospheres in food packaging. Industrial applications include welding, metal fabrication, and pH control in water treatment facilities. We supply CO2 for fire suppression systems, providing safe and effective fire protection solutions. Our carbon dioxide meets food safety standards and industrial specifications. Available in liquid and gas forms with flexible delivery options to meet your operational needs.',
+      description: 'CO₂ (Carbon Dioxide) is a colorless, odorless gas used across medical, food, and industrial sectors. It is essential for carbonating beverages, preserving food, and supporting plant growth in greenhouses. Also used in welding, fire suppression systems, and dry ice production. Delivered in cylinders or bulk supply with high purity and safety compliance.',
       image: CO2
     },
     {
       name: 'N2 (Nitrogen)',
-      description: 'Ultra-pure nitrogen gas for food packaging, electronics, and inert atmosphere applications. Our high-purity nitrogen prevents oxidation and extends shelf life in food packaging and storage applications. Essential for electronics manufacturing, semiconductor production, and laboratory applications requiring inert environments. Perfect for purging systems, blanketing applications, and creating oxygen-free atmospheres. We provide nitrogen in various purity levels from commercial grade to ultra-high purity specifications. Our reliable supply ensures consistent quality for critical manufacturing processes and research applications.',
+      description: 'N₂ (Nitrogen) Gas is a colorless, odorless, and non-reactive gas widely used in industrial and scientific applications. It’s essential for creating inert atmospheres in welding, chemical processing, and electronics manufacturing. Also used in food packaging to preserve freshness and in tire inflation for better stability. Supplied in high-pressure cylinders with consistent purity and strict safety standards.',
       image: N2
     },
     {
       name: 'Ar (Argon)',
-      description: 'High-purity argon gas for welding, metal fabrication, and laboratory applications. Our premium argon provides excellent shielding properties for TIG and MIG welding operations, ensuring clean, high-quality welds. Essential for stainless steel and aluminum welding where superior weld quality is critical. Laboratory-grade argon is perfect for analytical instruments, chromatography, and research applications. We supply argon for metal heat treatment, crystal growing, and specialty manufacturing processes. Available in various cylinder sizes and purity grades to meet specific application requirements.',
+      description: 'Ar (Argon) Gas is a colorless, odorless, and inert noble gas used in various industrial processes. It provides a protective atmosphere for welding, metal fabrication, and semiconductor manufacturing. Also used in filling incandescent and fluorescent light bulbs to prevent filament oxidation. Delivered in high-purity cylinders with reliable quality and safety assurance.',
       image: AR
     }
   ];
