@@ -3,7 +3,7 @@ import {
   Menu, 
   X, 
   ChevronDown, 
-  Zap,
+  Factory,
   Flame, 
   Shield, 
   Truck, 
@@ -15,10 +15,13 @@ import {
   Clock,
   CheckCircle,
   Users,
-  Factory,
   Heart,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Facebook,
+  Twitter,
+  Linkedin,
+  Instagram
 } from 'lucide-react';
 
 function App() {
@@ -573,17 +576,34 @@ function App() {
       {/* Footer */}
       <footer className="bg-slate-800 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center mb-4 md:mb-0">
-              <Flame className="h-8 w-8 text-red-400 mr-2" />
+          <div className="grid md:grid-cols-3 gap-8 items-center">
+            <div className="flex items-center justify-center md:justify-start">
+              <Factory className="h-8 w-8 text-red-400 mr-2" />
               <div>
                 <span className="text-xl font-bold text-white">Success Traders</span>
                 <div className="text-xs text-gray-400">Air gas products</div>
               </div>
             </div>
-            <div className="text-gray-400 text-sm">
+            
+            <div className="flex justify-center space-x-6">
+              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <Facebook className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <Twitter className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <Linkedin className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <Instagram className="h-6 w-6" />
+              </a>
+            </div>
+            
+            <div className="text-gray-400 text-sm text-center md:text-right">
               © 2024 Success Traders. All rights reserved.
             </div>
+          </div>
           </div>
         </div>
       </footer>
