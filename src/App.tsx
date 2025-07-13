@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import { 
   Menu, 
   X, 
-  ChevronDown, 
   Factory,
-  Flame, 
   Shield, 
   Truck, 
   Award,
@@ -15,7 +13,6 @@ import {
   Clock,
   CheckCircle,
   Users,
-  Heart,
   ChevronLeft,
   ChevronRight,
   Facebook,
@@ -27,10 +24,7 @@ import {
 import bannner from './assets/bannner.jpg';
 import gas from './assets/gas.jpg';
 import o2 from './assets/o2.png';
-import mo2 from './assets/mo2.png';
 import N2o from './assets/N2o.png';
-import CO2 from './assets/CO2.png';
-import N2 from './assets/N2.png';
 import Calibration from './assets/cCalibration.png';
 import lab_gases from './assets/lab_gases.png';
 
@@ -42,22 +36,22 @@ function App() {
   const products = [
     {
       name: 'Industrial Gases',
-      description: 'Comprehensive range of industrial gases including O2, AR, N2, ACM, D.A, NH3, and more for various manufacturing processes. High-purity gases delivered with reliable quality assurance and safety standards for optimal industrial performance.',
+      description: 'Oxygen, Nitrogen, Argon, Carbon Dioxide, Argon + Carbon Dioxide mixture, dissolved acetylene, Ammonia, Refrigeration Gases and all others.',
       image: N2o
     },
     {
       name: 'Medical Gases',
-      description: 'Specialized medical gases including Mo2, N2O, CO2, Tri Gas, and other pharmaceutical-grade gases for healthcare applications. Certified for medical use with strict quality control and regulatory compliance for patient safety.',
+      description: 'Medical Oxygen, Nitrous Oxide, Carbon Dioxide, Liquid Nitrogen and A mixture of O2 (oxygen), N2 (nitrogen), and CO2 (carbon dioxide) is referred to as a tri-gas mixture.',
       image: o2
     },
     {
       name: 'Laboratories like Research Institutions & Universities',
-      description: 'We supply high-purity gases such as NH₃, He, CO₂, and specialty-grade gases like methane, ethylene, and nitrous oxide, catering to the precision needs of laboratories, research institutions, and universities.',
+      description: 'Oxygen, Argon, Nitrogen, Hydrogen, Helium, Carbon Dioxide, Carbon Monoxide, Nitric Oxide, Zero Air, Synthetic Air, Methane, Ethylene, Ammonia Both pure & mixed gases are supplied. Purity: Ultra high pure – 99.9995% / 5.5 Grade High pure – 99.99% / 5.0 Grade (Along with purity certificate)', 
       image: lab_gases
     },
     {
       name: 'Calibration Gases',
-      description: 'Calibration Gases in Di, Tri, and Tetra mixtures, ensuring accurate instrument performance and compliance with industry standards. These mixtures are essential for gas analyzers, emission monitoring, and laboratory calibration processes..',
+      description: 'Di, Tri, Tetra composition as you like, the ratio in ppm level',
       image: Calibration
     }
   ];
@@ -117,7 +111,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
-                <Zap className="h-8 w-8 text-blue-600 mr-2" />
+                {/* <Zap className="h-8 w-8 text-blue-600 mr-2" /> */}
                 <div>
                   <span className="text-xl font-bold text-gray-900">Success Traders</span>
                   <div className="text-xs text-gray-500">Air gas products</div>
@@ -187,9 +181,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-                Premium Gas Solutions for 
-                <span className="text-red-500"> Industry & Healthcare</span>
+              <h1 className="text-4xl 
+              font-bold text-white leading-tight">
+                Supplier of Industrial, Medical, and Laboratory Gases.
               </h1>
               <div className="text-lg text-red-400 font-semibold mb-4">Air gas products</div>
               <p className="mt-6 text-lg lg:text-xl text-gray-300 leading-relaxed">
@@ -214,11 +208,11 @@ function App() {
               {/* Stats */}
               <div className="mt-12 grid grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-2xl lg:text-3xl font-bold text-red-400">15+</div>
+                  <div className="text-2xl lg:text-3xl font-bold text-red-400">40+</div>
                   <div className="text-sm text-gray-400">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl lg:text-3xl font-bold text-red-400">500+</div>
+                  <div className="text-2xl lg:text-3xl font-bold text-red-400">1000+</div>
                   <div className="text-sm text-gray-400">Happy Clients</div>
                 </div>
                 <div className="text-center">
@@ -274,7 +268,7 @@ function App() {
               </p>
               <p className="text-gray-600 text-lg leading-relaxed mb-6" >We provide a comprehensive range of <b>Industrial Gases, Medical Gases, and high-purity gases for Laboratories, Research Institutions, and Universities. Our Calibration Gases, including Di, Tri, and Tetra mixtures, ensure precise measurements and reliable performance across applications.</b></p>
               <p className="text-gray-600 text-lg leading-relaxed">
-                With over 15 years of experience in the gas industry, we have built a reputation 
+                We are doing the bussiness since 1995, we have built a reputation 
                 for excellence, innovation, and customer satisfaction. Our team of experts ensures 
                 that every product meets stringent quality standards and safety regulations.
               </p>
@@ -327,10 +321,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Our Premium Gas Products
+              Our Products Gas
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Comprehensive range of high-quality gases for diverse industrial and medical applications
+              <b>Supplier of Industrial, Medical, and Laboratory Gases</b>
             </p>
           </div>
 
@@ -345,7 +339,7 @@ function App() {
                   />
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-3">{product.name}</h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed">{product.description}</p>
+                    <p className="text-gray-600 mb-6 leading-relaxed"><b>{product.description}</b></p>
                   
                     <button className="w-full bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                       Get Quote
@@ -484,7 +478,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Email</div>
-                    <div className="text-gray-300">info@successtraders.com</div>
+                    <div className="text-gray-300">successtraders.muthu@gmail.com</div>
                   </div>
                 </div>
                 
@@ -587,7 +581,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 items-center">
             <div className="flex items-center justify-center md:justify-start">
-              <Factory className="h-8 w-8 text-red-400 mr-2" />
+              {/* <Factory className="h-8 w-8 text-red-400 mr-2" /> */}
               <div>
                 <span className="text-xl font-bold text-white">Success Traders</span>
                 <div className="text-xs text-gray-400">Air gas products</div>
