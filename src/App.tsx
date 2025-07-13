@@ -21,7 +21,8 @@ import {
   Facebook,
   Twitter,
   Linkedin,
-  Instagram
+  Instagram,
+  Zap
 } from 'lucide-react';
 
 function App() {
