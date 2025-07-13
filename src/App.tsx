@@ -31,7 +31,8 @@ import mo2 from './assets/mo2.png';
 import N2o from './assets/N2o.png';
 import CO2 from './assets/CO2.png';
 import N2 from './assets/N2.png';
-import AR from './assets/AR.png';
+import Calibration from './assets/cCalibration.png';
+import lab_gases from './assets/lab_gases.png';
 
 
 function App() {
@@ -42,12 +43,22 @@ function App() {
     {
       name: 'Industrial Gases',
       description: 'Comprehensive range of industrial gases including O2, AR, N2, ACM, D.A, NH3, and more for various manufacturing processes. High-purity gases delivered with reliable quality assurance and safety standards for optimal industrial performance.',
-      image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: N2o
     },
     {
       name: 'Medical Gases',
       description: 'Specialized medical gases including Mo2, N2O, CO2, Tri Gas, and other pharmaceutical-grade gases for healthcare applications. Certified for medical use with strict quality control and regulatory compliance for patient safety.',
-      image: 'https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: o2
+    },
+    {
+      name: 'Laboratories like Research Institutions & Universities',
+      description: 'We supply high-purity gases such as NH₃, He, CO₂, and specialty-grade gases like methane, ethylene, and nitrous oxide, catering to the precision needs of laboratories, research institutions, and universities.',
+      image: lab_gases
+    },
+    {
+      name: 'Calibration Gases',
+      description: 'Calibration Gases in Di, Tri, and Tetra mixtures, ensuring accurate instrument performance and compliance with industry standards. These mixtures are essential for gas analyzers, emission monitoring, and laboratory calibration processes..',
+      image: Calibration
     }
   ];
 
@@ -261,6 +272,7 @@ function App() {
                 to industries and healthcare facilities. Our mission is to ensure safe, reliable, 
                 and efficient gas supply that meets the demanding requirements of our clients.
               </p>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6" >We provide a comprehensive range of <b>Industrial Gases, Medical Gases, and high-purity gases for Laboratories, Research Institutions, and Universities. Our Calibration Gases, including Di, Tri, and Tetra mixtures, ensure precise measurements and reliable performance across applications.</b></p>
               <p className="text-gray-600 text-lg leading-relaxed">
                 With over 15 years of experience in the gas industry, we have built a reputation 
                 for excellence, innovation, and customer satisfaction. Our team of experts ensures 
@@ -322,7 +334,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {products.map((product, index) => {
               return (
                 <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
