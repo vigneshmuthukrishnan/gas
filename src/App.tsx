@@ -482,7 +482,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Phone</div>
-                    <div className="text-gray-300">+1 (555) 123-4567</div>
+                    <div className="text-gray-300">+91 9345735928</div>
                   </div>
                 </div>
                 
@@ -502,7 +502,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Address</div>
-                    <div className="text-gray-300">123 Industrial Drive, Gas City, TX 12345</div>
+                    <div className="text-gray-300">NO.204 VOC Road Karaikudi - 630001</div>
                   </div>
                 </div>
                 
@@ -512,6 +512,13 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Business Hours</div>
+                    <div className="text-gray-300">Monday 10AM - 8PM</div>
+                    <div className="text-gray-300">Tuesday 10AM - 8PM</div>
+                    <div className="text-gray-300">Wednesday 10AM - 8PM</div>
+                    <div className="text-gray-300">Thursday 10AM - 8PM</div>
+                    <div className="text-gray-300">Friday 10AM - 8PM</div>
+                    <div className="text-gray-300">Saturday 10AM - 8PM</div>
+                    <div className="text-gray-300">Sunday 10AM - 8PM</div>
                     <div className="text-gray-300">24/7 Emergency Support Available</div>
                   </div>
                 </div>
