@@ -24,6 +24,15 @@ import {
   Instagram,
   Zap
 } from 'lucide-react';
+import bannner from './assets/bannner.jpg';
+import gas from './assets/gas.jpg';
+import o2 from './assets/o2.png';
+import mo2 from './assets/mo2.png';
+import N2o from './assets/N2o.png';
+import CO2 from './assets/CO2.png';
+import N2 from './assets/N2.png';
+import AR from './assets/AR.png';
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,32 +42,32 @@ function App() {
     {
       name: 'O2 (Oxygen)',
       description: 'High-purity oxygen gas essential for medical, industrial, and welding applications. Our medical-grade oxygen meets stringent pharmaceutical standards for hospitals, clinics, and emergency services. Industrial oxygen is perfect for steel production, chemical processing, and metal cutting operations. We provide oxygen in various cylinder sizes and purity levels to meet your specific requirements. Our reliable supply chain ensures consistent availability for critical applications. All oxygen products are tested and certified to meet international quality standards.',
-      image: 'https://images.pexels.com/photos/4226881/pexels-photo-4226881.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+      image: mo2
     },
     {
-      name: 'Mo2 (Molybdenum Dioxide)',
+      name: 'Mo2',
       description: 'Specialized molybdenum dioxide designed for advanced industrial and research applications. This high-grade compound is essential for catalyst production, metallurgical processes, and specialized chemical reactions. Our Mo2 meets strict purity requirements for semiconductor manufacturing and advanced materials research. Perfect for laboratories, research institutions, and high-tech manufacturing facilities. We ensure consistent quality through rigorous testing and quality control processes. Available in various packaging options to suit different application needs.',
-      image: 'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+      image: o2
     },
     {
       name: 'N2O (Nitrous Oxide)',
       description: 'Medical-grade nitrous oxide for anesthesia and food industry applications. Our pharmaceutical-grade N2O is widely used in hospitals and dental clinics for safe and effective anesthesia procedures. Food-grade nitrous oxide serves as an excellent propellant for whipped cream dispensers and aerosol applications. We maintain strict quality control to ensure product purity and safety for all applications. Our nitrous oxide meets FDA and medical industry standards for patient safety. Available in various cylinder sizes with secure delivery and handling protocols.',
-      image: 'https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+      image: N2o
     },
     {
       name: 'CO2 (Carbon Dioxide)',
       description: 'Food-grade and industrial carbon dioxide for beverage, welding, and fire suppression systems. Our CO2 is perfect for carbonating beverages, preserving food freshness, and creating inert atmospheres in food packaging. Industrial applications include welding, metal fabrication, and pH control in water treatment facilities. We supply CO2 for fire suppression systems, providing safe and effective fire protection solutions. Our carbon dioxide meets food safety standards and industrial specifications. Available in liquid and gas forms with flexible delivery options to meet your operational needs.',
-      image: 'https://images.pexels.com/photos/4226881/pexels-photo-4226881.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+      image: CO2
     },
     {
       name: 'N2 (Nitrogen)',
       description: 'Ultra-pure nitrogen gas for food packaging, electronics, and inert atmosphere applications. Our high-purity nitrogen prevents oxidation and extends shelf life in food packaging and storage applications. Essential for electronics manufacturing, semiconductor production, and laboratory applications requiring inert environments. Perfect for purging systems, blanketing applications, and creating oxygen-free atmospheres. We provide nitrogen in various purity levels from commercial grade to ultra-high purity specifications. Our reliable supply ensures consistent quality for critical manufacturing processes and research applications.',
-      image: 'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+      image: N2
     },
     {
       name: 'Ar (Argon)',
       description: 'High-purity argon gas for welding, metal fabrication, and laboratory applications. Our premium argon provides excellent shielding properties for TIG and MIG welding operations, ensuring clean, high-quality welds. Essential for stainless steel and aluminum welding where superior weld quality is critical. Laboratory-grade argon is perfect for analytical instruments, chromatography, and research applications. We supply argon for metal heat treatment, crystal growing, and specialty manufacturing processes. Available in various cylinder sizes and purity grades to meet specific application requirements.',
-      image: 'https://images.pexels.com/photos/5327580/pexels-photo-5327580.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+      image: AR
     }
   ];
 
@@ -231,7 +240,7 @@ function App() {
             <div className="relative">
               <div className="bg-gradient-to-br from-slate-800 to-blue-800 rounded-2xl p-8 lg:p-12">
                 <img 
-                  src="./assets/image.jpg" 
+                  src={bannner} 
                   alt="Gas cylinders and industrial equipment" 
                   className="w-full h-64 lg:h-80 object-cover rounded-xl shadow-lg"
                 />
@@ -280,7 +289,7 @@ function App() {
             </div>
             <div>
               <img 
-                src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+                src={gas} 
                 alt="Gas production facility" 
                 className="w-full h-80 object-cover rounded-xl shadow-lg"
               />
