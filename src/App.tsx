@@ -604,7 +604,6 @@ function App() {
               © 2024 Success Traders. All rights reserved.
             </div>
           </div>
-          </div>
         </div>
       </footer>
     </div>
