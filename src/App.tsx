@@ -120,7 +120,7 @@ function App() {
             "@type": "Organization",
             "name": "Success Traders",
             "url": "https://success-traders.netlify.app/",
-            "logo": "https://success-traders.netlify.app/assets/bannner-D08iT9fd.jpg",
+            "logo": "https://success-traders.netlify.app/assets/bannner.jpg",
             "contactPoint": [{
               "@type": "ContactPoint",
               "telephone": "+91 9345735928",
