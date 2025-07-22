@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://success-traders.netlify.app/sitemap.xml
+Sitemap: https://successtraders.in/sitemap.xml

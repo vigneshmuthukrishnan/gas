@@ -111,7 +111,7 @@ function App() {
         <meta name="description" content="Supplier of Industrial, Medical, and Laboratory Gases - certified quality, reliable delivery. Serving since 1995. Success Traders Karaikudi." />
         <meta property="og:title" content="Success Traders" />
         <meta property="og:description" content="Trusted supplier of oxygen, nitrogen, industrial and medical gases." />
-        <meta property="og:image" content="https://your-real-image-url.com/banner.jpg" />
+        <meta property="og:image" content="https://successtraders.in/banner.jpg" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <script type="application/ld+json">{`
@@ -119,8 +119,8 @@ function App() {
             "@context": "http://schema.org",
             "@type": "Organization",
             "name": "Success Traders",
-            "url": "https://success-traders.netlify.app/",
-            "logo": "https://success-traders.netlify.app/assets/bannner.jpg",
+            "url": "https://successtraders.in/",
+            "logo": "https://successtraders.in/assets/bannner.jpg",
             "contactPoint": [{
               "@type": "ContactPoint",
               "telephone": "+91 9345735928",
